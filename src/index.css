@@ -4,7 +4,23 @@ font-family: 'Inter', sans-serif;
 font-family: 'Rock Salt', cursive;
 font-family: 'Sora', sans-serif; */
 
+:root {
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 body {
+  position: relative;
   width: 100vw;
   min-height: 100vh;
+  font-size: 1.7rem;
+  font-weight: 400;
 }
